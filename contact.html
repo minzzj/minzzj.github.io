@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minzzj - 联系我们</title>
+    <link rel="stylesheet" href="contact/contact.css">
+    <script defer src="contact/contact.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="index/resources/logo.png" alt="minzzj虚拟科技" class="logo">
+        </div>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="aboutus.html">关于我们</a>
+            <a href="contact.html" class="active">联系我们</a>
+            <a href="sponsor.html">赞助</a>
+            <a href="portfolio.html">游戏实例展示</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 联系方式 -->
+        <section class="contact-info" style="background: url('contact/resources/contact_background.jpg') no-repeat center center fixed; background-size: cover;">
+            <div class="content">
+                <h2>联系方式</h2>
+                <p>我们期待与您合作！请通过以下方式联系我们：</p>
+                <div class="contact-details">
+                    <p><strong>邮箱：</strong>minzzj@qq.com</p>
+                    <p><strong>电话：</strong>17605339619</p>
+                    <p><strong>地址：</strong>中国</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 在线表单 -->
+        <section class="contact-form" style="background: url('contact/resources/form_background.jpg') no-repeat center center fixed; background-size: cover;">
+            <div class="content">
+                <h2>在线留言</h2>
+                <form action="submit_form" method="post">
+                    <label for="name">姓名：</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">电话（可选）：</label>
+                    <input type="tel" id="phone" name="phone"><br><br>
+                    <label for="message">留言：</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <button type="submit">提交</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 地图位置 -->
+        <section class="location" style="background: url('contact/resources/map_background.jpg') no-repeat center center fixed; background-size: cover;">
+            <div class="content">
+                <h2>公司位置</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d116.397428!5e0!3m2!1sen!2s!4v1633072800000!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>公司地址：山东省淄博</p>
+            </div>
+        </section>
+
+        <!-- 常见问题解答 (FAQ) -->
+        <section class="faq" style="background: url('contact/resources/faq_background.jpg') no-repeat center center fixed; background-size: cover;">
+            <div class="content">
+                <h2>常见问题解答</h2>
+                <details>
+                    <summary>如何购买服务器租赁服务？</summary>
+                    <p>您可以通过我们的网站提交租赁申请，我们会尽快与您联系并提供详细信息。</p>
+                </details>
+                <details>
+                    <summary>游戏开发的流程是怎样的？</summary>
+                    <p>我们的游戏开发流程包括需求分析、设计、开发、测试和上线。每个环节都有专业的团队负责，确保游戏品质。</p>
+                </details>
+                <details>
+                    <summary>网站定制服务需要多长时间？</summary>
+                    <p>网站定制服务的时间取决于项目的复杂程度。我们会在项目启动时提供详细的时间表。</p>
+                </details>
+                <details>
+                    <summary>如何提交赞助申请？</summary>
+                    <p>您可以通过我们的赞助页面提交赞助申请，我们会尽快与您联系。</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 minzzj 版权所有</p>
+    </footer>
+</body>
+</html>
